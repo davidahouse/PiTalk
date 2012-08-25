@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9444B59C15E8698E0053DDC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444B59B15E8698E0053DDC7 /* UIKit.framework */; };
+		9444B59E15E8698E0053DDC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444B59D15E8698E0053DDC7 /* Foundation.framework */; };
+		9444B5A015E8698E0053DDC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444B59F15E8698E0053DDC7 /* CoreGraphics.framework */; };
+		9444B5A615E8698E0053DDC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9444B5A415E8698E0053DDC7 /* InfoPlist.strings */; };
+		9444B5A815E8698E0053DDC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5A715E8698E0053DDC7 /* main.m */; };
+		9444B5AC15E8698E0053DDC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5AB15E8698E0053DDC7 /* AppDelegate.m */; };
+		9444B5AF15E8698E0053DDC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5AE15E8698E0053DDC7 /* ViewController.m */; };
+		9444B5B215E8698F0053DDC7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9444B5B015E8698F0053DDC7 /* ViewController.xib */; };
+		9444B5CE15E93E4E0053DDC7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5CD15E93E4E0053DDC7 /* GCDAsyncSocket.m */; };
+		9444B5E015E93E550053DDC7 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5D115E93E550053DDC7 /* DDAbstractDatabaseLogger.m */; };
+		9444B5E115E93E550053DDC7 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5D315E93E550053DDC7 /* DDASLLogger.m */; };
+		9444B5E215E93E550053DDC7 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5D515E93E550053DDC7 /* DDFileLogger.m */; };
+		9444B5E315E93E550053DDC7 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5D715E93E550053DDC7 /* DDLog.m */; };
+		9444B5E415E93E550053DDC7 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5D915E93E550053DDC7 /* DDTTYLogger.m */; };
+		9444B5E515E93E550053DDC7 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5DC15E93E550053DDC7 /* ContextFilterLogFormatter.m */; };
+		9444B5E615E93E550053DDC7 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9444B5DE15E93E550053DDC7 /* DispatchQueueLogFormatter.m */; };
+		9444B5E715E93E550053DDC7 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9444B5DF15E93E550053DDC7 /* README.txt */; };
+		9444B5E915E93E7D0053DDC7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444B5E815E93E7D0053DDC7 /* CFNetwork.framework */; };
+		9444B5EB15E93E950053DDC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444B5EA15E93E950053DDC7 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9444B59715E8698E0053DDC7 /* PiTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9444B59B15E8698E0053DDC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9444B59D15E8698E0053DDC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9444B59F15E8698E0053DDC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9444B5A315E8698E0053DDC7 /* PiTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PiTalk-Info.plist"; sourceTree = "<group>"; };
+		9444B5A515E8698E0053DDC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9444B5A715E8698E0053DDC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9444B5A915E8698E0053DDC7 /* PiTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PiTalk-Prefix.pch"; sourceTree = "<group>"; };
+		9444B5AA15E8698E0053DDC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9444B5AB15E8698E0053DDC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9444B5AD15E8698E0053DDC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9444B5AE15E8698E0053DDC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9444B5B115E8698F0053DDC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9444B5CC15E93E4E0053DDC7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		9444B5CD15E93E4E0053DDC7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		9444B5D015E93E550053DDC7 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		9444B5D115E93E550053DDC7 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		9444B5D215E93E550053DDC7 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		9444B5D315E93E550053DDC7 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		9444B5D415E93E550053DDC7 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		9444B5D515E93E550053DDC7 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		9444B5D615E93E550053DDC7 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		9444B5D715E93E550053DDC7 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		9444B5D815E93E550053DDC7 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		9444B5D915E93E550053DDC7 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		9444B5DB15E93E550053DDC7 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		9444B5DC15E93E550053DDC7 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		9444B5DD15E93E550053DDC7 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		9444B5DE15E93E550053DDC7 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		9444B5DF15E93E550053DDC7 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		9444B5E815E93E7D0053DDC7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9444B5EA15E93E950053DDC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9444B59415E8698E0053DDC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9444B5EB15E93E950053DDC7 /* Security.framework in Frameworks */,
+				9444B5E915E93E7D0053DDC7 /* CFNetwork.framework in Frameworks */,
+				9444B59C15E8698E0053DDC7 /* UIKit.framework in Frameworks */,
+				9444B59E15E8698E0053DDC7 /* Foundation.framework in Frameworks */,
+				9444B5A015E8698E0053DDC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9444B58C15E8698E0053DDC7 = {
+			isa = PBXGroup;
+			children = (
+				9444B5EA15E93E950053DDC7 /* Security.framework */,
+				9444B5E815E93E7D0053DDC7 /* CFNetwork.framework */,
+				9444B5A115E8698E0053DDC7 /* PiTalk */,
+				9444B59A15E8698E0053DDC7 /* Frameworks */,
+				9444B59815E8698E0053DDC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9444B59815E8698E0053DDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9444B59715E8698E0053DDC7 /* PiTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9444B59A15E8698E0053DDC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9444B59B15E8698E0053DDC7 /* UIKit.framework */,
+				9444B59D15E8698E0053DDC7 /* Foundation.framework */,
+				9444B59F15E8698E0053DDC7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9444B5A115E8698E0053DDC7 /* PiTalk */ = {
+			isa = PBXGroup;
+			children = (
+				9444B5C915E93E430053DDC7 /* Library */,
+				9444B5AA15E8698E0053DDC7 /* AppDelegate.h */,
+				9444B5AB15E8698E0053DDC7 /* AppDelegate.m */,
+				9444B5AD15E8698E0053DDC7 /* ViewController.h */,
+				9444B5AE15E8698E0053DDC7 /* ViewController.m */,
+				9444B5B015E8698F0053DDC7 /* ViewController.xib */,
+				9444B5A215E8698E0053DDC7 /* Supporting Files */,
+			);
+			path = PiTalk;
+			sourceTree = "<group>";
+		};
+		9444B5A215E8698E0053DDC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9444B5A315E8698E0053DDC7 /* PiTalk-Info.plist */,
+				9444B5A415E8698E0053DDC7 /* InfoPlist.strings */,
+				9444B5A715E8698E0053DDC7 /* main.m */,
+				9444B5A915E8698E0053DDC7 /* PiTalk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9444B5C915E93E430053DDC7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				9444B5CF15E93E550053DDC7 /* CocoaLumberjack */,
+				9444B5CB15E93E4E0053DDC7 /* CocoaAsyncSocket */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		9444B5CB15E93E4E0053DDC7 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9444B5CC15E93E4E0053DDC7 /* GCDAsyncSocket.h */,
+				9444B5CD15E93E4E0053DDC7 /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			path = Library/CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		9444B5CF15E93E550053DDC7 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				9444B5D015E93E550053DDC7 /* DDAbstractDatabaseLogger.h */,
+				9444B5D115E93E550053DDC7 /* DDAbstractDatabaseLogger.m */,
+				9444B5D215E93E550053DDC7 /* DDASLLogger.h */,
+				9444B5D315E93E550053DDC7 /* DDASLLogger.m */,
+				9444B5D415E93E550053DDC7 /* DDFileLogger.h */,
+				9444B5D515E93E550053DDC7 /* DDFileLogger.m */,
+				9444B5D615E93E550053DDC7 /* DDLog.h */,
+				9444B5D715E93E550053DDC7 /* DDLog.m */,
+				9444B5D815E93E550053DDC7 /* DDTTYLogger.h */,
+				9444B5D915E93E550053DDC7 /* DDTTYLogger.m */,
+				9444B5DA15E93E550053DDC7 /* Extensions */,
+			);
+			name = CocoaLumberjack;
+			path = Library/CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		9444B5DA15E93E550053DDC7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9444B5DB15E93E550053DDC7 /* ContextFilterLogFormatter.h */,
+				9444B5DC15E93E550053DDC7 /* ContextFilterLogFormatter.m */,
+				9444B5DD15E93E550053DDC7 /* DispatchQueueLogFormatter.h */,
+				9444B5DE15E93E550053DDC7 /* DispatchQueueLogFormatter.m */,
+				9444B5DF15E93E550053DDC7 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9444B59615E8698E0053DDC7 /* PiTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9444B5B515E8698F0053DDC7 /* Build configuration list for PBXNativeTarget "PiTalk" */;
+			buildPhases = (
+				9444B59315E8698E0053DDC7 /* Sources */,
+				9444B59415E8698E0053DDC7 /* Frameworks */,
+				9444B59515E8698E0053DDC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiTalk;
+			productName = PiTalk;
+			productReference = 9444B59715E8698E0053DDC7 /* PiTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9444B58E15E8698E0053DDC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Random Accident";
+			};
+			buildConfigurationList = 9444B59115E8698E0053DDC7 /* Build configuration list for PBXProject "PiTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9444B58C15E8698E0053DDC7;
+			productRefGroup = 9444B59815E8698E0053DDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9444B59615E8698E0053DDC7 /* PiTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9444B59515E8698E0053DDC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9444B5A615E8698E0053DDC7 /* InfoPlist.strings in Resources */,
+				9444B5B215E8698F0053DDC7 /* ViewController.xib in Resources */,
+				9444B5E715E93E550053DDC7 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9444B59315E8698E0053DDC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9444B5A815E8698E0053DDC7 /* main.m in Sources */,
+				9444B5AC15E8698E0053DDC7 /* AppDelegate.m in Sources */,
+				9444B5AF15E8698E0053DDC7 /* ViewController.m in Sources */,
+				9444B5CE15E93E4E0053DDC7 /* GCDAsyncSocket.m in Sources */,
+				9444B5E015E93E550053DDC7 /* DDAbstractDatabaseLogger.m in Sources */,
+				9444B5E115E93E550053DDC7 /* DDASLLogger.m in Sources */,
+				9444B5E215E93E550053DDC7 /* DDFileLogger.m in Sources */,
+				9444B5E315E93E550053DDC7 /* DDLog.m in Sources */,
+				9444B5E415E93E550053DDC7 /* DDTTYLogger.m in Sources */,
+				9444B5E515E93E550053DDC7 /* ContextFilterLogFormatter.m in Sources */,
+				9444B5E615E93E550053DDC7 /* DispatchQueueLogFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9444B5A415E8698E0053DDC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9444B5A515E8698E0053DDC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9444B5B015E8698F0053DDC7 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9444B5B115E8698F0053DDC7 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9444B5B315E8698F0053DDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9444B5B415E8698F0053DDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9444B5B615E8698F0053DDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiTalk/PiTalk-Prefix.pch";
+				INFOPLIST_FILE = "PiTalk/PiTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9444B5B715E8698F0053DDC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PiTalk/PiTalk-Prefix.pch";
+				INFOPLIST_FILE = "PiTalk/PiTalk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9444B59115E8698E0053DDC7 /* Build configuration list for PBXProject "PiTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9444B5B315E8698F0053DDC7 /* Debug */,
+				9444B5B415E8698F0053DDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9444B5B515E8698F0053DDC7 /* Build configuration list for PBXNativeTarget "PiTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9444B5B615E8698F0053DDC7 /* Debug */,
+				9444B5B715E8698F0053DDC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9444B58E15E8698E0053DDC7 /* Project object */;
+}
